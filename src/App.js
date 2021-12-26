@@ -54,7 +54,7 @@ function App() {
     <h1><span className='before-heading'></span>BMI CALCULATOR<span className='after-heading'></span></h1>
       <div className = "calculation-part">
         <input type="number" placeholder="Enter Your Height in CM" value = {height} onChange={targetHeight}></input>
-        <input type="number" placeholder="Enter Your Weight in CM" value = {weight} onChange={targetWeight}></input>
+        <input type="number" placeholder="Enter Your Weight in KG" value = {weight} onChange={targetWeight}></input>
         <button type="submit" onClick={calculateBMI}>
           Calculate BMI
         </button>
